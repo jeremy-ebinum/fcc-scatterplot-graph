@@ -4,6 +4,7 @@ dependencies:
   d3-axis: 1.0.12
   d3-fetch: 1.1.2
   d3-scale: 3.2.1
+  d3-scale-chromatic: 1.5.0
   d3-selection: 1.4.1
   d3-time-format: 2.2.3
   normalize.css: 8.0.1
@@ -2156,6 +2157,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-V9znK0zc3jOPV4VD2zZn0sDhZU3WAE2bmlxdIwwQPPzPjvyLkd8B3JUVdS1IDUFDkWZ72c9qnv1GK2ZagTZ8EA==
+  /d3-scale-chromatic/1.5.0:
+    dependencies:
+      d3-color: 1.4.1
+      d3-interpolate: 1.4.0
+    dev: false
+    resolution:
+      integrity: sha512-ACcL46DYImpRFMBcpk9HhtIyC7bTBR4fNOPxwVSl0LfulDAwyiHyPOTqcDG1+t5d4P9W7t/2NAuWu59aKko/cg==
   /d3-scale/3.2.1:
     dependencies:
       d3-array: 2.4.0
@@ -7267,6 +7275,7 @@ specifiers:
   d3-axis: ^1.0.12
   d3-fetch: ^1.1.2
   d3-scale: ^3.2.1
+  d3-scale-chromatic: ^1.5.0
   d3-selection: ^1.4.1
   d3-time-format: ^2.2.3
   eslint: ^6.8.0
